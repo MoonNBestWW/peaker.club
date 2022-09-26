@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
 h1 {
@@ -178,6 +182,8 @@ body {
 -ms-user-select: none; /* IE10+/Edge */
 user-select: none; /* Standard */
 }
+@media only screen and (min-width: 1279px) {
+  }
     canvas {
       position: fixed;
       display: flex;
